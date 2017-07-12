@@ -19,10 +19,10 @@ sed -i 's/AcceptEnv/#AcceptEnv/g' /etc/ssh/sshd_config
 service ssh restart
 
 # remove unused
-apt-get -y --purge remove samba*;
-apt-get -y --purge remove apache2*;
-apt-get -y --purge remove sendmail*;
-apt-get -y --purge remove bind9*;
+#apt-get -y --purge remove samba*;
+#apt-get -y --purge remove apache2*;
+#apt-get -y --purge remove sendmail*;
+#apt-get -y --purge remove bind9*;
 
 # update
 apt-get update 
